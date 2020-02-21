@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  googleMaps: 'AIzaSyD5ZlHVCmlaomavHQpOoINRhBH7CUdWmx8'
+  googleMaps: ''
 };
 
 /*

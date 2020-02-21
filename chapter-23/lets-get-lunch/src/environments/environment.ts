@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  googleMaps: 'AIzaSyBYrzsmmxkWdCFr4gju_xIftRb8O6EAmNM',
+  googleMaps: '',
   api: 'http://localhost:8080/api'
 };
 
