@@ -110,9 +110,9 @@ describe('DashboardComponent', () => {
   });
 
   it('should default the calendar to a week view', () => {
-    expect(viewDateElement[0].classes.active).toBeFalsy(false);
+    expect(viewDateElement[0].classes.active).toBeFalsy();
     expect(viewDateElement[1].classes.active).toEqual(true);
-    expect(viewDateElement[2].classes.active).toBeFalsy(false);
+    expect(viewDateElement[2].classes.active).toBeFalsy();
   });
 
   it('should display events within the current week in the calendar', () => {
